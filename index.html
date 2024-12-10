@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenges</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Daily Challenges!</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#login">Login</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Today's Challenge</h2>
+        <p>Pick today's challenge and start now!</p>
+        <button>Start Challenge</button>
+    </section>
+
+    <section id="profile">
+        <h2>Your Profile</h2>
+        <p>Challenges completed: 3</p>
+        <p>Today's Challenge: <span id="dailyChallenge">Not set yet</span></p>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="#">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+</body>
+</html>
